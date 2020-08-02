@@ -15,10 +15,16 @@ class Dog {
     this.name=name;
   }
   speak(){
-    return name+" says meow!"
+    return name+" says woof!"
   }
 }
 
 class Bird {
   //...
+  constructors(name){
+    this.name=name;
+  }
+  speak(){
+    return "It's me! "+name+"", the parrot!";
+}
 }
