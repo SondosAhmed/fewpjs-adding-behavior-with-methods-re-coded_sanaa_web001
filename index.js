@@ -5,12 +5,18 @@ class Cat {
     this.name=name;
   }
   speak(){
-    return name+" says meow"
+    return name+" says meow!"
   }
 }
 
 class Dog {
   //...
+  constructors(name){
+    this.name=name;
+  }
+  speak(){
+    return name+" says meow!"
+  }
 }
 
 class Bird {
